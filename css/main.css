@@ -39,6 +39,9 @@ nav img {
 	margin-top: 50px;
 }
 
+.selected {
+	color: red;
+}
 
 
 
@@ -76,6 +79,7 @@ button {
 	padding-top: 10px;
 	background: url('../img/background_header.png');
 	height: 40px;
+	color: #fff;
 }
 
 #section_body {
