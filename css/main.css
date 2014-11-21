@@ -1,3 +1,7 @@
+/**********************************
+GENERAL
+***********************************/
+
 body {
 	background: url('../img/background.png');
 	background-size: 37px;
@@ -12,6 +16,17 @@ nav, section {
 	text-align: center;
 }
 
+p {
+	font-size: 1.5em;
+}
+
+/**********************************
+navigation and header
+***********************************/
+nav img {
+	width: 235px;
+}
+
 #left {
 	float: left;
 }
@@ -24,10 +39,12 @@ nav, section {
 	margin-top: 50px;
 }
 
-nav img {
-	width: 235px;
-}
 
+
+
+/**********************************
+Section styles
+***********************************/
 section {
 	border-style: solid;
 	border-width: 1.5px;
@@ -35,46 +52,12 @@ section {
 	border-radius: 10px;
 }
 
-p {
-	font-size: 1.5em;
+section p {
+	margin-bottom: 15px;
 }
 
-#section_head {
-	border-radius: 10px;
-	padding-top: 10px;
-	background: url('../img/background_header.png');
-	height: 40px;
-}
-
-#section_body {
-	padding: 20px;
-}
-
-#guess {
-	display: block;
-	width: 120px;
-	height: 30px;
-	border-style: solid;
-	border-width: 2px;
-	border-radius: 5px;
-	margin: 20px auto;
-}
-
-#section_down {
-	background-color: #fff;
-}
 section img {
 	width: 50px;
-}
-
-.walking {
-	height: 50px;
-}
-#cold_img {
-	float: left;
-}
-#hot_img {
-	float: right;
 }
 
 button {
@@ -87,6 +70,40 @@ button {
 	border-color: #cdcdcd;
 	margin-bottom: 15px;
 }
-section p {
-	margin-bottom: 15px;
+
+#section_head {
+	border-radius: 10px 10px 0 0;
+	padding-top: 10px;
+	background: url('../img/background_header.png');
+	height: 40px;
+}
+
+#section_body {
+	padding: 20px;
+}
+
+#section_down {
+	background-color: #fff;
+}
+
+#guess {
+	display: block;
+	width: 120px;
+	height: 30px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	margin: 20px auto;
+}
+
+#cold_img {
+	float: left;
+}
+
+#hot_img {
+	float: right;
+}
+
+.walking {
+	height: 50px;
 }
