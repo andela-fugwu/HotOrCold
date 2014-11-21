@@ -1,3 +1,43 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<title>Hot or Cold App</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<nav>
+				<a href="" id="left" class="nav_links">Home</a>
+				<img src='img/logo.png' alt="logo.png">
+				<a href="" id="right" class="nav_links">About</a>
+			</nav>
+			
+			<section>
+				<div id="section_head">
+					<p>Make your guess!</p>
+				</div>
+				<div id="section_body">
+					<p id="hotter_colder">Waiting for your guess!</p>
+					<form>
+						<input type="text" id="guess" name="user_guess" placeholder="Enter your guess">
+						<button type="submit">Guess</button>
+					</form>
+					<p>Guess count:</p>
+					<div id="section_down">
+						<img src="img/cold.jpg" id="cold_img" class="walking" alt="cold.jpg">
+						<img src="img/walking_front.jpg" class="walking" alt="walking_front.jpg">
+						<img src="img/hot.gif" id="hot_img" alt="hot.gif">
+					</div>
+				</div>
+
+			</section>
+			
+			<footer>
+
+			</footer>
+		</div>
+	</body>
+
 </html>
