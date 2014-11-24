@@ -20,11 +20,25 @@ p {
 	font-size: 1.5em;
 }
 
+button, #right {
+	height: 29px;
+	font: bold 1.2em Arial, sans-serif;
+	background: #f1f1f1;
+	border: 1px solid;
+	border-radius: 4px;
+	color: #222222;
+	border-color: #cdcdcd;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
 /**********************************
 navigation and header
 ***********************************/
 nav img {
 	width: 235px;
+}
+#left, #right {
+	font: bold .82em Arial, sans-serif;
 }
 
 #left {
@@ -33,9 +47,12 @@ nav img {
 
 #right {
 	float: right;
+	text-decoration: none;
+	padding: 4px;
+	height: 21px;
 }
 
-.nav_links {
+.nav_links, #left {
 	margin-top: 50px;
 }
 
@@ -63,17 +80,6 @@ section img {
 	width: 50px;
 }
 
-button {
-	height: 29px;
-	font: bold 1.2em Arial, sans-serif;
-	background: #f1f1f1;
-	border: 1px solid;
-	border-radius: 4px;
-	color: #222222;
-	border-color: #cdcdcd;
-	margin-bottom: 15px;
-}
-
 #section_head {
 	border-radius: 10px 10px 0 0;
 	padding-top: 10px;
@@ -88,6 +94,7 @@ button {
 
 #section_down {
 	background-color: #fff;
+	text-align: left;
 }
 
 #guess {
@@ -110,4 +117,16 @@ button {
 
 .walking {
 	height: 50px;
+}
+
+#counter {
+	color: red;
+}
+#man {
+	margin-left:0px;
+	-webkit-transition: 2s;
+  -moz-transition: 2s;
+  -ms-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
 }
