@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hot or Cold App</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+		
+	</head>
+	<body>
+		<div id="wrapper">
+			<nav>
+				<button id="left">New Game</button>
+				<img src='img/logo.png' alt="logo.png">
+				<a href="about.html" id="right" class="nav_links">About</a>
+			</nav>
+			<section>
+				<div id="section_head">
+					<p>Make your guess!</p>
+				</div>
+				<div id="section_body">
+					<form>
+						<p id="hotter_colder">Waiting for your guess!</p>
+						<input type="number" id="guess" name="user_guess" placeholder="Enter your guess">
+						<button id="Action">Guess</button>
+					</form>
+					<p>Guess count:<span id="counter">0</span></p>
+					<div id="section_down">
+						<img src="img/cold.jpg" id="cold_img" class="walking" alt="cold.jpg">
+						<img src="img/neither.jpg" id="man" class="walking" alt="walking_front.jpg">
+						<img src="img/hot.gif" id="hot_img" alt="hot.gif">
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/main.js"></script>
+</html>
