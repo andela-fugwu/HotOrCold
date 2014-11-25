@@ -49,7 +49,7 @@ var play_game = {
           document.getElementById('counter').innerHTML = (parseInt(document.getElementById('counter').innerHTML)+1).toString();
         }
       } else 
-      document.getElementById('hotter_colder').innerHTML ="invalid input";
+      document.getElementById('hotter_colder').innerHTML ="Please enter a number between 0 and 100";
     }
   },
 
