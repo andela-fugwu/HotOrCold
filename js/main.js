@@ -54,7 +54,7 @@ var play_game = {
   },
 
   //compares user guess with computers hidden number 
-  compare_guess: function() {
+  compare_guess: function () {
     
     if(this.valid_guess === this.hidden_number) {
       this.computer_present = Math.abs(this.hidden_number-this.valid_guess);
@@ -86,5 +86,8 @@ var play_game = {
 play_game.new_game();
 
 //binds functions to buttons
-document.getElementById('Action').addEventListener("click", function() { play_game.guess(); });
-document.getElementById('left').addEventListener("click", function() { play_game.new_game(); });
+document.getElementById('Action').addEventListener("click", function (e) { 
+  e.preventDefault();
+  play_game.guess(); 
+});
+document.getElementById('left').addEventListener("click", function () { play_game.new_game(); });

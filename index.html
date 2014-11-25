@@ -18,9 +18,11 @@
 					<p>Make your guess!</p>
 				</div>
 				<div id="section_body">
-					<p id="hotter_colder">Waiting for your guess!</p>
-					<input type="number" min="0" max="100" id="guess" name="user_guess" placeholder="Enter your guess">
-					<button id="Action">Guess</button>
+					<form>
+						<p id="hotter_colder">Waiting for your guess!</p>
+						<input type="number" id="guess" name="user_guess" placeholder="Enter your guess">
+						<button id="Action">Guess</button>
+					</form>
 					<p>Guess count:<span id="counter">0</span></p>
 					<div id="section_down">
 						<img src="img/cold.jpg" id="cold_img" class="walking" alt="cold.jpg">
@@ -31,5 +33,5 @@
 			</section>
 		</div>
 	</body>
-	<script src="js/main.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </html>
